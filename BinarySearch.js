@@ -1,4 +1,6 @@
 
+// https://leetcode.com/problems/binary-search
+
 // Itertative Solution 
 
 let Binarysearch1 = function(nums, target) {
@@ -36,7 +38,6 @@ let Binarysearch2 = function(nums, left, right, target){
 
         // Define the middle
         let pivot = left + Math.floor((right - left) / 2);
-        console.log(left,right,pivot)
 
         // check if target found
         if(nums[pivot] == target ) return pivot;
@@ -54,9 +55,9 @@ let Binarysearch2 = function(nums, left, right, target){
 
 
 
-var arr = [0,3,5,7,8,9,12];
+// var arr = [0,3,5,7,8,9,12];
 
 // console.log(Binarysearch1(arr, 7));
-// console.log(Binarysearch2(arr, 0, 6, 12));
+// console.log(Binarysearch2(arr, 0, 6, 7));
 
 
