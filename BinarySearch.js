@@ -12,7 +12,7 @@ let Binarysearch1 = function(nums, target) {
     while(left <= right) {
 
         // Define the middle of the array 
-        pivot = left + Math.floor(right - left / 2) ;
+        pivot = left + Math.floor(right - left / 2);
 
         // Check if the target is found 
         if( nums[pivot] == target) return pivot;
@@ -54,10 +54,9 @@ let Binarysearch2 = function(nums, left, right, target){
 }
 
 
+var arr = [0,3,5,7,8,9,12];
 
-// var arr = [0,3,5,7,8,9,12];
-
-// console.log(Binarysearch1(arr, 7));
-// console.log(Binarysearch2(arr, 0, 6, 7));
+// console.log(Binarysearch1(arr, 12));
+console.log(Binarysearch2(arr, 0, 6, 9));
 
 
