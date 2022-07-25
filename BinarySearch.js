@@ -56,7 +56,7 @@ let Binarysearch2 = function(nums, left, right, target){
 
 var arr = [0,3,5,7,8,9,12];
 
-// console.log(Binarysearch1(arr, 12));
+console.log(Binarysearch1(arr, 12));
 console.log(Binarysearch2(arr, 0, 6, 9));
 
 

@@ -37,4 +37,4 @@ var solution = function(isBadVersion) {
         
 };
 
-// console.log(solution(isBadVersion,arr));
+console.log(solution(isBadVersion,arr));
