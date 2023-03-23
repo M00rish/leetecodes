@@ -1,11 +1,12 @@
 var findKthPositive = function(arr, k) {
     let left = 0;
     let right = arr.length;
+    let pivot;
 
     while (left <= right) {
-        let pivot = left + (right - left) / 2;
+        pivot = left + (right - left) / 2;
 
-        if (arr[pivot] - pivot - 1) {
+        if (arr[pivot] - pivot - 1 < k) {
             left = pivot + 1;
         } else {
             right = pivot - 1;
