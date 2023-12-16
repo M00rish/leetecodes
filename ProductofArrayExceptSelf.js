@@ -45,7 +45,7 @@ var productExceptSelf = function(nums) {
 // i = 2 -> rightProduct = 1 * 4 = 4 -> rightProducts[2] = 4
 // i = 1 -> rightProduct = 4 * 3 = 12 -> rightProducts[1] = 12
 // i = 0 -> rightProduct = 12 * 2 = 24 -> rightProducts[0] = 24;
-// rightProduct = [24,12,4,1]
+// rightProducts = [24,12,4,1]
 
 //Last loop 
 //result = [24,12,8,6]
