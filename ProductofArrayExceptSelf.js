@@ -14,7 +14,6 @@ var productExceptSelf = function(nums) {
      for (let i = 1; i < n; i++) {
          leftProduct *= nums[i - 1];
          leftProducts[i] = leftProduct;
-         console.log(i,leftProducts[i])
      }
  
      // Compute the products to the right of each element
@@ -22,7 +21,6 @@ var productExceptSelf = function(nums) {
      for (let i = n - 2; i >= 0; i--) {
          rightProduct *= nums[i + 1];
          rightProducts[i] = rightProduct;
-         console.log(i,rightProducts[i])
      }
  
      // Compute the final result by multiplying left and right products
